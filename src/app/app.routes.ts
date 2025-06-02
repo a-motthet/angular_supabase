@@ -35,13 +35,6 @@ export const routes: Routes = [
             './features/employee/employee-update/employee-update.component'
           ).then((m) => m.EmployeeUpdateComponent),
       },
-      {
-        path: 'test',
-        loadComponent: () =>
-          import('./features/new-featunasd/new-featunasd.component').then(
-            (m) => m.NewFeatunasdComponent
-          ),
-      },
     ],
   },
   {

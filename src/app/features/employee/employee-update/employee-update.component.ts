@@ -22,7 +22,7 @@ export class EmployeeUpdateComponent implements OnInit {
     first_name: '',
     last_name: '',
     phone: '',
-    position: '',
+    job_position: '',
     department: '',
     salary: 0,
   };

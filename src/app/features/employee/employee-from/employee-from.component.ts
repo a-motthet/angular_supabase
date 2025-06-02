@@ -29,7 +29,7 @@ export class EmployeeFormComponent {
       first_name: ['', Validators.required],
       last_name: ['', Validators.required],
       phone: ['', Validators.required],
-      position: ['', Validators.required],
+      job_position: ['', Validators.required],
       department: ['', Validators.required],
       salary: [0, [Validators.required, Validators.min(0)]],
     });
